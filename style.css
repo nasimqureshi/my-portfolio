@@ -1,6 +1,6 @@
 section {
     /* height: 500px; */
-    background-color: aqua;
+    background-color: rgb(244, 247, 247);
     border: solid black 2px;
 }
 .hero {
@@ -78,6 +78,12 @@ p{
     justify-content: space-around;
     padding: 50px;
 }
+.sub-section-alternative{
+    text-align: center;
+    
+}
+
+
 .headshot {
     width: 300px;
     height: 300px;
@@ -86,4 +92,15 @@ p{
 .headshot-container {
     display: flex;
     align-items: center;
+}
+.project-card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px gray;
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
